@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6d69b3ca","path":"/tech-article/other/rate-limiting.html","title":"\u9650\u6D41","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1681288221000,"contributors":[{"name":"\u8096\u4F1F\u524D","email":"xiaoweiqian5@163.com","commits":1}]},"filePathRelative":"tech-article/other/rate-limiting.md"}');export{t as data};

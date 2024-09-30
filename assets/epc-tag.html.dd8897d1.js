@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-79ec2f2c","path":"/tech-article/other/epc-tag.html","title":"EPC\u6807\u7B7E","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1666147838000,"contributors":[{"name":"\u8096\u4F1F\u524D","email":"xiaoweiqian5@163.com","commits":1}]},"filePathRelative":"tech-article/other/epc-tag.md"}');export{e as data};

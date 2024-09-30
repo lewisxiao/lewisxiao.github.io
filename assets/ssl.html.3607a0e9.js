@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-d775cf7e","path":"/linux/ssl.html","title":"SSL","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667987514000,"contributors":[{"name":"\u8096\u4F1F\u524D","email":"xiaoweiqian5@163.com","commits":1}]},"filePathRelative":"linux/ssl.md"}');export{e as data};

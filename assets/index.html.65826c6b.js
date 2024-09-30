@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-c6d7f644","path":"/xmind/","title":"\u601D\u7EF4\u5BFC\u56FE","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1666259835000,"contributors":[{"name":"\u8096\u4F1F\u524D","email":"xiaoweiqian5@163.com","commits":1}]},"filePathRelative":"xmind/README.md"}');export{e as data};

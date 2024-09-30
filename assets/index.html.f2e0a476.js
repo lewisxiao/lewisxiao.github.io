@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7444a74e","path":"/atm/","title":"XFS \u89C4\u8303","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1727687114000,"contributors":[{"name":"xiaoweiqian","email":"xiaoweiqian5@163.com","commits":2}]},"filePathRelative":"atm/README.md"}');export{e as data};

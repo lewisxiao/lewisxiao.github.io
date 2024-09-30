@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-293af0de","path":"/tools/git/branch-model.html","title":"Git\u5206\u652F\u6A21\u578B","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661761250000,"contributors":[{"name":"\u8096\u4F1F\u524D","email":"xiaoweiqian5@163.com","commits":1}]},"filePathRelative":"tools/git/branch-model.md"}');export{t as data};
