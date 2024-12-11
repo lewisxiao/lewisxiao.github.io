@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-3358ccfe","path":"/database/dynamic-ds.html","title":"\u52A8\u6001\u6570\u636E\u6E90","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661852664000,"contributors":[{"name":"\u8096\u4F1F\u524D","email":"xiaoweiqian5@163.com","commits":1}]},"filePathRelative":"database/dynamic-ds.md"}');export{a as data};

@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-7f0a4c34","path":"/java/base.html","title":"Java\u57FA\u7840","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1661422747000,"contributors":[{"name":"weiqian.xiao \u7545\u79FB_\u8096\u4F1F\u524D","email":"xiaoweiqian@vchangyi.com","commits":1}]},"filePathRelative":"java/base.md"}');export{a as data};
