@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <style>
+    .st0{fill:#F5F7FA;}
+    .st1{fill:#409EFF;}
+    .st2{fill:#2C3E50;}
+    .st3{fill:#FFFFFF;}
+    .st4{fill:#E6EBF5;}
+    .st5{opacity:0.6;fill:#409EFF;}
+    .st6{fill:none;stroke:#2C3E50;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+  </style>
+
+  <!-- Background elements -->
+  <circle class="st0" cx="400" cy="300" r="250"/>
+  <circle class="st5" cx="150" cy="150" r="20"/>
+  <circle class="st5" cx="650" cy="200" r="15"/>
+  <circle class="st5" cx="700" cy="350" r="25"/>
+  <circle class="st5" cx="200" cy="450" r="17"/>
+  <circle class="st5" cx="450" cy="100" r="12"/>
+
+  <!-- Main illustration -->
+  <g>
+    <!-- Computer screen -->
+    <rect class="st3" x="250" y="200" width="300" height="220" rx="10"/>
+    <rect class="st4" x="250" y="200" width="300" height="30" rx="10"/>
+    <circle class="st1" cx="270" cy="215" r="5"/>
+    <circle class="st2" cx="290" cy="215" r="5"/>
+    <circle class="st0" cx="310" cy="215" r="5"/>
+
+    <!-- Error message -->
+    <text x="400" y="300" font-family="Arial" font-size="60" font-weight="bold" text-anchor="middle" class="st1">404</text>
+    <text x="400" y="340" font-family="Arial" font-size="20" text-anchor="middle" class="st2">Page not found</text>
+
+    <!-- Computer stand -->
+    <path class="st2" d="M370,420 L430,420 L440,450 L360,450 Z"/>
+    <rect class="st2" x="380" y="450" width="40" height="10"/>
+  </g>
+
+  <!-- Character -->
+  <g>
+    <!-- Head -->
+    <circle class="st3" cx="550" cy="280" r="40"/>
+    <path class="st6" d="M535,280 C535,280 545,290 565,280"/>
+    <circle class="st2" cx="535" cy="270" r="5"/>
+    <circle class="st2" cx="565" cy="270" r="5"/>
+
+    <!-- Body -->
+    <path class="st1" d="M510,330 C510,330 530,310 550,320 C570,310 590,330 590,330 L590,400 L510,400 Z"/>
+
+    <!-- Arms -->
+    <path class="st3" d="M510,330 C510,330 490,350 480,380 C475,390 485,400 490,390 C500,370 510,350 510,350"/>
+    <path class="st3" d="M590,330 C590,330 610,350 620,380 C625,390 615,400 610,390 C600,370 590,350 590,350"/>
+
+    <!-- Legs -->
+    <path class="st2" d="M530,400 L520,450 L540,450 L540,400 Z"/>
+    <path class="st2" d="M560,400 L570,450 L550,450 L550,400 Z"/>
+
+    <!-- Question marks -->
+    <text x="480" y="250" font-family="Arial" font-size="40" font-weight="bold" text-anchor="middle" class="st1">?</text>
+    <text x="620" y="250" font-family="Arial" font-size="40" font-weight="bold" text-anchor="middle" class="st1">?</text>
+  </g>
+
+  <!-- Decorative elements -->
+  <path class="st6" d="M150,300 C150,300 180,280 200,300 C220,320 250,300 250,300"/>
+  <path class="st6" d="M550,150 C550,150 580,130 600,150 C620,170 650,150 650,150"/>
+  <path class="st6" d="M200,500 C200,500 230,480 250,500 C270,520 300,500 300,500"/>
+</svg>

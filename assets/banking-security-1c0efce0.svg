@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <style>
+    .st0{fill:#F5F7FA;}
+    .st1{fill:#409EFF;}
+    .st2{fill:#2C3E50;}
+    .st3{fill:#FFFFFF;}
+    .st4{fill:#E6EBF5;}
+    .st5{opacity:0.6;fill:#409EFF;}
+    .st6{fill:none;stroke:#2C3E50;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+    .st7{fill:none;stroke:#409EFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+    .st8{fill:#34A853;}
+  </style>
+
+  <!-- Background -->
+  <rect class="st0" x="0" y="0" width="600" height="400" rx="10"/>
+
+  <!-- Central Shield -->
+  <g transform="translate(300,200)">
+    <!-- Outer Shield -->
+    <path class="st1" d="M0,-100 L80,-60 L80,60 L0,100 L-80,60 L-80,-60 Z"/>
+    <!-- Inner Shield -->
+    <path class="st3" d="M0,-80 L60,-48 L60,48 L0,80 L-60,48 L-60,-48 Z"/>
+
+    <!-- Lock Icon -->
+    <g transform="translate(0,0)">
+      <!-- Lock Body -->
+      <rect class="st2" x="-25" y="-10" width="50" height="40" rx="5"/>
+      <!-- Lock Shackle -->
+      <path class="st2" d="M-10,-10 C-10,-10 -10,-30 0,-30 C10,-30 10,-10 10,-10"/>
+      <!-- Keyhole -->
+      <circle class="st3" cx="0" cy="10" r="8"/>
+      <rect class="st2" x="-2" y="10" width="4" height="10"/>
+    </g>
+  </g>
+
+  <!-- Security Elements -->
+
+  <!-- Fingerprint (Left) -->
+  <g transform="translate(120,200)">
+    <circle class="st4" cx="0" cy="0" r="50"/>
+    <path class="st7" d="M0,-20 C-20,-20 -30,0 -30,20 C-30,30 -25,40 -15,40"/>
+    <path class="st7" d="M0,-10 C-15,-10 -20,0 -20,20 C-20,30 -15,35 -5,35"/>
+    <path class="st7" d="M0,0 C-10,0 -10,10 -10,20 C-10,25 -5,30 0,30"/>
+    <path class="st7" d="M0,10 C0,10 0,15 0,20"/>
+    <path class="st7" d="M0,-30 C-30,-30 -40,0 -40,20 C-40,40 -30,50 -20,50"/>
+    <path class="st7" d="M10,-25 C-15,-25 -25,0 -25,25"/>
+    <path class="st7" d="M20,-15 C0,-15 -5,5 -5,25"/>
+    <path class="st7" d="M25,0 C15,0 10,10 10,25"/>
+    <path class="st7" d="M25,15 C20,15 20,20 20,25"/>
+  </g>
+
+  <!-- Encryption (Right) -->
+  <g transform="translate(480,200)">
+    <circle class="st4" cx="0" cy="0" r="50"/>
+    <!-- Binary Code -->
+    <text x="-30" y="-25" font-family="monospace" font-size="10" class="st2">10110</text>
+    <text x="-20" y="-10" font-family="monospace" font-size="10" class="st2">01001</text>
+    <text x="-30" y="5" font-family="monospace" font-size="10" class="st2">11010</text>
+    <text x="-20" y="20" font-family="monospace" font-size="10" class="st2">00101</text>
+    <text x="-30" y="35" font-family="monospace" font-size="10" class="st2">10110</text>
+
+    <!-- Encryption Symbol -->
+    <g transform="translate(15,0)">
+      <path class="st1" d="M-10,-20 L10,-20 L10,20 L-10,20 Z"/>
+      <path class="st3" d="M-5,-15 L5,-15 L5,15 L-5,15 Z"/>
+      <path class="st1" d="M0,-10 L0,10 M-5,0 L5,0"/>
+    </g>
+  </g>
+
+  <!-- Top Security Features -->
+  <g transform="translate(300,70)">
+    <rect class="st4" x="-200" y="-30" width="400" height="60" rx="10"/>
+
+    <!-- MFA Icon -->
+    <g transform="translate(-150,0)">
+      <circle class="st3" cx="0" cy="0" r="20"/>
+      <path class="st1" d="M-10,-10 L-10,10 L10,0 Z"/>
+      <circle class="st1" cx="-5" cy="-5" r="3"/>
+      <circle class="st1" cx="-5" cy="5" r="3"/>
+    </g>
+
+    <!-- Fraud Detection -->
+    <g transform="translate(-50,0)">
+      <circle class="st3" cx="0" cy="0" r="20"/>
+      <path class="st1" d="M-10,10 L-5,5 L0,10 L5,-10 L10,-5"/>
+      <circle class="st8" cx="-10" cy="10" r="3"/>
+      <circle class="st1" cx="-5" cy="5" r="3"/>
+      <circle class="st1" cx="0" cy="10" r="3"/>
+      <circle class="st1" cx="5" cy="-10" r="3"/>
+      <circle class="st8" cx="10" cy="-5" r="3"/>
+    </g>
+
+    <!-- Secure API -->
+    <g transform="translate(50,0)">
+      <circle class="st3" cx="0" cy="0" r="20"/>
+      <path class="st1" d="M-10,0 L-5,-5 L0,0 L5,5 L10,0"/>
+      <path class="st1" d="M-10,5 L10,5"/>
+      <path class="st1" d="M-10,-5 L10,-5"/>
+    </g>
+
+    <!-- Audit -->
+    <g transform="translate(150,0)">
+      <circle class="st3" cx="0" cy="0" r="20"/>
+      <rect class="st1" x="-10" y="-12" width="20" height="24" rx="2"/>
+      <path class="st3" d="M-5,-7 L5,-7 M-5,-2 L5,-2 M-5,3 L5,3 M-5,8 L0,8"/>
+    </g>
+  </g>
+
+  <!-- Bottom Security Features -->
+  <g transform="translate(300,330)">
+    <rect class="st4" x="-200" y="-30" width="400" height="60" rx="10"/>
+
+    <!-- Compliance Icons -->
+    <g transform="translate(-150,0)">
+      <circle class="st3" cx="0" cy="0" r="20"/>
+      <text x="0" y="5" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" class="st1">PCI</text>
+    </g>
+
+    <g transform="translate(-50,0)">
+      <circle class="st3" cx="0" cy="0" r="20"/>
+      <text x="0" y="5" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" class="st1">SOX</text>
+    </g>
+
+    <g transform="translate(50,0)">
+      <circle class="st3" cx="0" cy="0" r="20"/>
+      <text x="0" y="5" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" class="st1">GDPR</text>
+    </g>
+
+    <g transform="translate(150,0)">
+      <circle class="st3" cx="0" cy="0" r="20"/>
+      <text x="0" y="5" font-family="Arial" font-size="8" font-weight="bold" text-anchor="middle" class="st1">BASEL III</text>
+    </g>
+  </g>
+
+  <!-- Connection Lines -->
+  <g class="st6">
+    <path d="M120,150 C150,120 250,120 300,150"/>
+    <path d="M300,150 C350,120 450,120 480,150"/>
+    <path d="M120,250 C150,280 250,280 300,250"/>
+    <path d="M300,250 C350,280 450,280 480,250"/>
+  </g>
+
+  <!-- Security Pulse -->
+  <g>
+    <circle class="st5" cx="300" cy="200" r="5">
+      <animate attributeName="r" values="5;50;5" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Checkmark Indicators -->
+  <g>
+    <circle class="st8" cx="120" cy="140" r="10"/>
+    <path class="st3" d="M115,140 L120,145 L125,135"/>
+
+    <circle class="st8" cx="480" cy="140" r="10"/>
+    <path class="st3" d="M475,140 L480,145 L485,135"/>
+
+    <circle class="st8" cx="120" cy="260" r="10"/>
+    <path class="st3" d="M115,260 L120,265 L125,255"/>
+
+    <circle class="st8" cx="480" cy="260" r="10"/>
+    <path class="st3" d="M475,260 L480,265 L485,255"/>
+  </g>
+</svg>

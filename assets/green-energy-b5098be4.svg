@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <style>
+    .st0{fill:#F5F7FA;}
+    .st1{fill:#34A853;}
+    .st2{fill:#2C3E50;}
+    .st3{fill:#FFFFFF;}
+    .st4{fill:#E6EBF5;}
+    .st5{opacity:0.6;fill:#34A853;}
+    .st6{fill:none;stroke:#2C3E50;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+  </style>
+
+  <!-- Background -->
+  <circle class="st0" cx="400" cy="300" r="250"/>
+
+  <!-- Decorative elements -->
+  <circle class="st5" cx="150" cy="150" r="20"/>
+  <circle class="st5" cx="650" cy="200" r="15"/>
+  <circle class="st5" cx="700" cy="350" r="25"/>
+  <circle class="st5" cx="200" cy="450" r="17"/>
+  <circle class="st5" cx="450" cy="100" r="12"/>
+
+  <!-- Solar Panel -->
+  <g transform="translate(250,200)">
+    <rect class="st2" x="0" y="0" width="200" height="150" rx="5"/>
+    <rect class="st3" x="10" y="10" width="180" height="130"/>
+    <g>
+      <rect class="st4" x="20" y="20" width="50" height="50"/>
+      <rect class="st4" x="75" y="20" width="50" height="50"/>
+      <rect class="st4" x="130" y="20" width="50" height="50"/>
+      <rect class="st4" x="20" y="75" width="50" height="50"/>
+      <rect class="st4" x="75" y="75" width="50" height="50"/>
+      <rect class="st4" x="130" y="75" width="50" height="50"/>
+    </g>
+    <!-- Stand -->
+    <path class="st2" d="M80,150 L120,150 L140,200 L60,200 Z"/>
+  </g>
+
+  <!-- Wind Turbine -->
+  <g transform="translate(500,150)">
+    <!-- Tower -->
+    <rect class="st2" x="45" y="100" width="10" height="200"/>
+    <!-- Hub -->
+    <circle class="st1" cx="50" cy="100" r="10"/>
+    <!-- Blades -->
+    <g transform="rotate(0 50 100)">
+      <path class="st1" d="M50,100 L20,50 L30,45 L60,95 Z"/>
+      <path class="st1" d="M50,100 L90,60 L95,70 L55,110 Z"/>
+      <path class="st1" d="M50,100 L40,150 L30,145 L40,95 Z"/>
+    </g>
+  </g>
+
+  <!-- Green Energy Icons -->
+  <g transform="translate(150,300)">
+    <!-- Leaf -->
+    <path class="st1" d="M0,0 C0,0 20,-20 40,0 C60,20 40,40 20,40 C0,40 -20,20 0,0 Z"/>
+    <!-- Lightning -->
+    <path class="st1" d="M80,0 L100,20 L90,30 L110,50 L70,40 L80,20 L60,10 Z"/>
+    <!-- Recycle -->
+    <path class="st1" d="M140,20 C140,20 160,0 180,20 C200,40 180,60 160,40 C140,20 140,20 140,20 Z"/>
+  </g>
+
+  <!-- Smart Grid Lines -->
+  <g class="st6">
+    <path d="M100,500 C100,500 200,450 300,475 C400,500 500,450 600,475"/>
+    <path d="M150,450 C150,450 250,400 350,425 C450,450 550,400 650,425"/>
+  </g>
+
+  <!-- Energy Flow Particles -->
+  <g class="st5">
+    <circle cx="200" cy="480" r="5">
+      <animate attributeName="cx" from="200" to="600" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="430" r="5">
+      <animate attributeName="cx" from="250" to="650" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

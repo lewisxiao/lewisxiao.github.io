@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <style>
+    .st0{fill:#F5F7FA;}
+    .st1{fill:#409EFF;}
+    .st2{fill:#2C3E50;}
+    .st3{fill:#FFFFFF;}
+    .st4{fill:#E6EBF5;}
+    .st5{opacity:0.6;fill:#409EFF;}
+    .st6{fill:none;stroke:#2C3E50;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+    .st7{fill:none;stroke:#409EFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+  </style>
+
+  <!-- Background -->
+  <circle class="st0" cx="400" cy="300" r="250"/>
+
+  <!-- Decorative elements -->
+  <circle class="st5" cx="150" cy="150" r="20"/>
+  <circle class="st5" cx="650" cy="200" r="15"/>
+  <circle class="st5" cx="700" cy="350" r="25"/>
+  <circle class="st5" cx="200" cy="450" r="17"/>
+  <circle class="st5" cx="450" cy="100" r="12"/>
+
+  <!-- Bank Building -->
+  <g transform="translate(300,200)">
+    <!-- Base -->
+    <rect class="st2" x="-100" y="100" width="200" height="20"/>
+
+    <!-- Steps -->
+    <rect class="st3" x="-80" y="120" width="160" height="10"/>
+
+    <!-- Columns -->
+    <rect class="st3" x="-90" y="0" width="20" height="100"/>
+    <rect class="st3" x="-30" y="0" width="20" height="100"/>
+    <rect class="st3" x="30" y="0" width="20" height="100"/>
+    <rect class="st3" x="70" y="0" width="20" height="100"/>
+
+    <!-- Roof -->
+    <polygon class="st2" points="-110,-20 110,-20 80,0 -80,0"/>
+
+    <!-- Pediment -->
+    <polygon class="st3" points="-60,-10 60,-10 40,0 -40,0"/>
+
+    <!-- Door -->
+    <rect class="st1" x="-20" y="50" width="40" height="50"/>
+  </g>
+
+  <!-- Digital Banking Elements -->
+  <g transform="translate(550,250)">
+    <!-- Smartphone -->
+    <rect class="st2" x="-30" y="-60" width="60" height="120" rx="10"/>
+    <rect class="st3" x="-25" y="-50" width="50" height="90"/>
+
+    <!-- App Interface -->
+    <rect class="st1" x="-20" y="-45" width="40" height="10"/>
+    <rect class="st4" x="-20" y="-30" width="15" height="15"/>
+    <rect class="st4" x="5" y="-30" width="15" height="15"/>
+    <rect class="st4" x="-20" y="-10" width="40" height="5"/>
+    <rect class="st4" x="-20" y="0" width="40" height="5"/>
+    <rect class="st4" x="-20" y="10" width="40" height="5"/>
+    <rect class="st1" x="-20" y="25" width="40" height="10"/>
+
+    <!-- Home Button -->
+    <circle class="st4" cx="0" cy="50" r="7"/>
+  </g>
+
+  <!-- Credit Cards -->
+  <g transform="translate(150,300)">
+    <!-- Card 1 -->
+    <g transform="rotate(-15)">
+      <rect class="st1" x="-50" y="-30" width="80" height="50" rx="5"/>
+      <rect class="st5" x="-40" y="-10" width="40" height="5"/>
+      <rect class="st3" x="-40" y="5" width="20" height="5"/>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="rotate(5)">
+      <rect class="st2" x="-30" y="-50" width="80" height="50" rx="5"/>
+      <rect class="st4" x="-20" y="-30" width="40" height="5"/>
+      <rect class="st3" x="-20" y="-15" width="20" height="5"/>
+    </g>
+  </g>
+
+  <!-- Financial Data -->
+  <g transform="translate(400,450)">
+    <!-- Chart -->
+    <rect class="st4" x="-100" y="-40" width="200" height="80" rx="5"/>
+
+    <!-- Chart Lines -->
+    <polyline class="st7" points="-80,-10 -60,0 -40,-20 -20,10 0,-15 20,5 40,-5 60,15 80,-10"/>
+
+    <!-- Chart Points -->
+    <circle class="st1" cx="-80" cy="-10" r="3"/>
+    <circle class="st1" cx="-60" cy="0" r="3"/>
+    <circle class="st1" cx="-40" cy="-20" r="3"/>
+    <circle class="st1" cx="-20" cy="10" r="3"/>
+    <circle class="st1" cx="0" cy="-15" r="3"/>
+    <circle class="st1" cx="20" cy="5" r="3"/>
+    <circle class="st1" cx="40" cy="-5" r="3"/>
+    <circle class="st1" cx="60" cy="15" r="3"/>
+    <circle class="st1" cx="80" cy="-10" r="3"/>
+
+    <!-- Chart Bars -->
+    <rect class="st5" x="-75" y="20" width="10" height="10"/>
+    <rect class="st5" x="-55" y="15" width="10" height="15"/>
+    <rect class="st5" x="-35" y="10" width="10" height="20"/>
+    <rect class="st5" x="-15" y="5" width="10" height="25"/>
+    <rect class="st5" x="5" y="15" width="10" height="15"/>
+    <rect class="st5" x="25" y="10" width="10" height="20"/>
+    <rect class="st5" x="45" y="5" width="10" height="25"/>
+    <rect class="st5" x="65" y="15" width="10" height="15"/>
+  </g>
+
+  <!-- Security Elements -->
+  <g transform="translate(650,400)">
+    <!-- Shield -->
+    <path class="st1" d="M0,-40 L30,-20 L30,20 L0,40 L-30,20 L-30,-20 Z"/>
+    <path class="st3" d="M0,-30 L20,-15 L20,15 L0,30 L-20,15 L-20,-15 Z"/>
+
+    <!-- Lock -->
+    <rect class="st2" x="-10" y="-5" width="20" height="20" rx="2"/>
+    <path class="st2" d="M-5,-5 C-5,-5 -5,-15 0,-15 C5,-15 5,-5 5,-5"/>
+  </g>
+
+  <!-- Connection Lines -->
+  <g class="st6">
+    <path d="M300,300 C350,350 450,350 500,300"/>
+    <path d="M200,350 C250,400 350,400 400,350"/>
+  </g>
+
+  <!-- Digital Particles -->
+  <g>
+    <circle class="st1" cx="350" cy="250" r="3">
+      <animate attributeName="cx" from="350" to="450" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" from="250" to="300" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="st1" cx="250" cy="350" r="3">
+      <animate attributeName="cx" from="250" to="350" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" from="350" to="400" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="st1" cx="450" cy="350" r="3">
+      <animate attributeName="cx" from="450" to="550" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="cy" from="350" to="300" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
