@@ -37,7 +37,7 @@
   <!-- 图表 -->
   <g transform="translate(350, 250)">
     <!-- 图表背景 -->
-    <rect x="-60" y="-60" width="120" height="120" fill="white" rx="5" ry="5" stroke="#ddd" stroke-width="2"/>
+    <rect x="-60" y="-60" width="130" height="120" fill="white" rx="5" ry="5" stroke="#ddd" stroke-width="2"/>
 
     <!-- 柱状图 -->
     <rect x="-50" y="0" width="20" height="50" fill="#409EFF"/>
